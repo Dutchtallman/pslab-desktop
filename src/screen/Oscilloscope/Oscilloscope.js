@@ -16,7 +16,7 @@ const loadBalancer = window.require('electron-load-balancer');
 class Oscilloscope extends Component {
   constructor(props) {
     super(props);
-    this.timeBaseList = [0.5, 1, 5, 10, 20, 25, 50];
+    this.timeBaseList = [0.5, 1, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000];
     this.state = {
       timeBaseIndex: 0,
       activeChannels: {
